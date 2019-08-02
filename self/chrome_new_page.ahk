@@ -55,6 +55,13 @@ Capslock:=""
 SetCapsLockState Off
 Return
 
+; command + windows + l to simulate the reformat in IDE
+!#l::
+Send ^!{l}
+Capslock:=""
+SetCapsLockState Off
+Return
+
 ; command + a
 !a::
 Send ^{a}
