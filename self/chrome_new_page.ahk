@@ -48,6 +48,13 @@ Capslock:=""
 SetCapsLockState Off
 Return
 
+; command + shift + z
+!+z::
+Send ^+{z}
+Capslock:=""
+SetCapsLockState Off
+Return
+
 ; command + a
 !a::
 Send ^{a}
