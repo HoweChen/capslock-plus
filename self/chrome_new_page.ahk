@@ -48,6 +48,34 @@ Capslock:=""
 SetCapsLockState Off
 Return
 
+; command + shift + z
+!+z::
+Send ^+{z}
+Capslock:=""
+SetCapsLockState Off
+Return
+
+; command + f to simulate find in chrome
+!f::
+Send ^{f}
+Capslock:=""
+SetCapsLockState Off
+Return
+
+; ; command + r to simulate replace in IDEs
+; !r::
+; Send ^{r}
+; Capslock:=""
+; SetCapsLockState Off
+; Return
+
+; command + windows + l to simulate the reformat in IDE
+!#l::
+Send ^!{l}
+Capslock:=""
+SetCapsLockState Off
+Return
+
 ; command + a
 !a::
 Send ^{a}
