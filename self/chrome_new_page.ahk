@@ -62,12 +62,12 @@ Capslock:=""
 SetCapsLockState Off
 Return
 
-; command + r to simulate replace in IDEs
-!r::
-Send ^{r}
-Capslock:=""
-SetCapsLockState Off
-Return
+; ; command + r to simulate replace in IDEs
+; !r::
+; Send ^{r}
+; Capslock:=""
+; SetCapsLockState Off
+; Return
 
 ; command + windows + l to simulate the reformat in IDE
 !#l::
