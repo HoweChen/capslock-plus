@@ -62,6 +62,12 @@ Capslock:=""
 SetCapsLockState Off
 Return
 
+!Enter::
+Send ^{Enter}
+Capslock:=""
+SetCapsLockState Off
+Return
+
 ; ; command + r to simulate replace in IDEs
 ; !r::
 ; Send ^{r}
